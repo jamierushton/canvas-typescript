@@ -28,9 +28,6 @@ module.exports = {
         new CopyWebpackPlugin([{
             from: 'src/style.css',
             to: path.resolve(__dirname, 'dist')
-        }, {
-            from: 'src/favicon.ico',
-            to: path.resolve(__dirname, 'dist')
         }], {
             debug: 'info'
         })
